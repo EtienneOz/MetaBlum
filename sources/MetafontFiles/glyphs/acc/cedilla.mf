@@ -1,0 +1,30 @@
+% box dimension definition %
+beginadjchar(11,5,cap#,0);
+
+% sidebearings %
+numeric l,r;
+normal_adjust_fit(space*-0.1u#,space*-0.1u#);
+
+% construction %
+x15=.3w;
+x14=.5w;
+x11=x18=.7w;
+x13=x16;
+x12=x17;
+y16=y17=-bar2;
+y15=y18=-1.5bar1;
+y11=-bar1;
+y12=y13=-0.5bar1;
+y14=0;
+z16=z15+whatever*dir(-ang); 
+z17=z18+whatever*dir(ang); 
+
+% draw %
+draw z14--z13--z12--z11--z18--z17--z16--z15;
+
+% composite anchor %
+charanchorbots_[charcode]=(.5w,0);
+
+penlabels(range 0 thru 30);
+
+endchar;

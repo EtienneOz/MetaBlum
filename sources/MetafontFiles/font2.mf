@@ -1,0 +1,56 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                         %
+% MF Adjuster v1.36                                                       %
+% © 2014 by Marco Mueller and Simon Egli                                  %
+% thanks to Christian Vetter, Linus Roemer, Alexis Reigel                 %
+% www.metaflop.com                                                        %
+% licensed under gpl v3: www.gnu.org/licenses/                            %
+%                                                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                         %
+% This program is free software: you can redistribute it and/or modify    %
+% it under the terms of the GNU General Public License as published by    %
+% the Free Software Foundation, either version 3 of the License, or       %
+% (at your option) any later version.                                     %
+%                                                                         %
+% This program is distributed in the hope that it will be useful,         %
+% but WITHOUT ANY WARRANTY; without even the implied warranty of          %
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the            %
+% GNU General Public License for more details.                            %
+%                                                                         %
+% You should have received a copy of the GNU General Public License       %
+% along with this program. If not, see <http://www.gnu.org/licenses/>.    %
+%                                                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% dimension %
+font_size:=10pt#;% font size  @hidden
+ht#:=16pt#;      % box height @hidden
+wd#:=10pt#;    % Box width
+u#:=1pt#;      % unit widht 					$ 0.5 / 2
+px#:=2pt#;     % pen width 					$ 0.1 / 2.8
+py#:=.5pt#;     % pen height					$ 0.1 / 2.8
+
+% proportion %
+cap#:=1ht#;      % cap height  @hidden			$ 0.75 / 1
+bar1#:=1/7cap#;  % @hidden
+bar2#:=2/7cap#;  % @hidden
+bar3#:=3/7cap#;  % @hidden
+bar4#:=4/7cap#;  % @hidden
+bar5#:=5/7cap#;  % @hidden
+bar6#:=6/7cap#;  % @hidden
+ang:=45;         % glyph angle setting           $ 0 / 360
+
+% shape %
+penang:=30;      % pen angle setting             $ 0 / 360
+penshape:=1;     % 1=circle / 2=square / 3=razor
+c=1;             % curve tension                 $ 1 / 20
+
+% export %
+sidebearing:=1;  % sidebearings (0) off, (1) on for .otf export
+
+input fontbase;
+input glyphs;
+input ligkerndef;
+bye;

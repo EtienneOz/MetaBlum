@@ -1,0 +1,27 @@
+% box dimension definition %
+beginadjchar("O",5,cap#,0);
+
+% sidebearings %
+numeric l,r;
+normal_adjust_fit(space*0.3u#,space*0.3u#);
+
+% construction %
+x1=x7=x9=leftstemloc;
+x4=x10=x8=w-x1;
+y8=y9=h;
+y2=y3=0;
+y1=y4=bar2;
+y7=y10=bar5;
+z2=z1+whatever*dir(-ang);
+z3=z4+whatever*dir(ang);
+
+% draw %
+draw z4..z2..z3..z1..z7..z9..z8..z10..cycle;
+
+% composite glyphs %
+charanchortops_[charcode]=(.5w,h+bar2);
+charanchorbots_[charcode]=(.5w,0);
+
+penlabels(range 0 thru 30);
+
+endchar;

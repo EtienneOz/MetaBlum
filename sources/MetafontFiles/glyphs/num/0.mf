@@ -1,0 +1,25 @@
+% box dimension definition %
+beginadjchar("0",5,cap#,0);
+
+% sidebearings %
+numeric l,r;
+normal_adjust_fit(space*0.3u#,space*0.3u#);
+
+% construction %
+x1=x7=leftstemloc;
+x4=x10=w-x1;
+x2=x8;
+x3=x9;
+y8=y9=h;
+y2=y3=0;
+y1=y4=bar1;
+y7=y10=bar5;
+z2=z1+whatever*dir(-ang);
+z3=z4+whatever*dir(ang);
+
+% draw %
+draw z4--z3--z2--z1--z7--z8--z9--z10--cycle;
+
+penlabels(range 0 thru 30);
+
+endchar;

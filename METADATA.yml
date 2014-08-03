@@ -1,0 +1,17 @@
+---
+unified font repository version: "0.2"
+unified font repository url: https://github.com/raphaelbastide/Unified-Font-Repository/
+typeface family: 
+  name: MetaBlum
+  tags: 
+  - MetaFont
+  - Generative
+  - Skeleton
+  - incomplete
+  repository url: https://github.com/EtienneOz/MetaBlum
+  tools:
+  - MetaFont
+  - Atom
+  - FontForge
+  sample text: J'ai vu un punk afghan et deux clowns aux zygomatiques incroyables.
+...

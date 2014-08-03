@@ -1,0 +1,25 @@
+% box dimension definition %
+beginadjchar("k",5,cap#,0);
+
+% sidebearings %
+numeric l,r;
+normal_adjust_fit(space*0.35u#,space*0.15u#);
+
+% construction %
+x1=x3=x2=leftstemloc;
+x4=x5=w-x1;
+y1=h;
+y2=y5=0;
+y3=1.5*bar1;
+y4=bar3;
+
+% draw %
+draw z4--z3--z5;
+draw z1--z2;
+
+% composite glyphs %
+charanchortops_[charcode]=(.5w,h+1/6cap);
+
+penlabels(range 0 thru 30);
+
+endchar;

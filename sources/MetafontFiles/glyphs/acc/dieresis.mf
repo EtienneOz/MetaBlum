@@ -1,0 +1,23 @@
+% box dimension definition %
+beginadjchar(4,5,cap#,0);
+
+% sidebearings %
+numeric l,r;
+normal_adjust_fit(space*-0.1u#,space*-0.1u#);
+
+% construction % 
+x12=x13=.25w;
+x14=x15=.75w;
+y12=y14=h-0.3bar1;
+y13=y15=h;
+
+% draw %
+draw z12--z13;
+draw z14--z15;
+
+% composite anchor %
+charanchortops_[charcode]=(.5w,h);
+
+penlabels(range 0 thru 30);
+
+endchar;

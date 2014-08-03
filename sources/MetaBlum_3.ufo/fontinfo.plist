@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+	<key>familyName</key>
+	<string>font3</string>
+	<key>styleName</key>
+	<string>Regular</string>
+	<key>copyright</key>
+	<string>Generated from MetaFont bitmap by mftrace 1.2.17, http://www.xs4all.nl/~hanwen/mftrace/ </string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>capHeight</key>
+	<integer>1629</integer>
+	<key>ascender</key>
+	<integer>800</integer>
+	<key>descender</key>
+	<integer>-200</integer>
+	<key>italicAngle</key>
+	<real>0</real>
+	<key>note</key>
+	<string></string>
+	<key>openTypeHeadCreated</key>
+	<string>2014/06/27 17:20:10</string>
+	<key>openTypeNameVersion</key>
+	<string>Version 001.001</string>
+	<key>postscriptFontName</key>
+	<string>font3</string>
+	<key>postscriptFullName</key>
+	<string>font3</string>
+	<key>postscriptWeightName</key>
+	<string>Regular</string>
+	<key>postscriptUnderlineThickness</key>
+	<integer>50</integer>
+	<key>postscriptUnderlinePosition</key>
+	<integer>-100</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+		<integer></integer>
+	</array>
+    </dict>
+</plist>

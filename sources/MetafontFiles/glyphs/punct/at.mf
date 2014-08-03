@@ -1,0 +1,37 @@
+% box dimension definition %
+beginadjchar(64,5,cap#,0);
+
+% sidebearings %
+numeric l,r;
+normal_adjust_fit(space*0.3u#,space*0.3u#);
+
+% construction %
+x1=x7=leftstemloc;
+x4=x10=x21=w-x1;
+x2=x8;
+x3=x9;
+y8=y9=bar5;
+y2=y3=0;
+y1=y4=bar1;
+y7=y10=bar4;
+z2=z1+whatever*dir(-ang);
+z3=z4+whatever*dir(ang);
+
+x14=x15=0.25w;
+x11=x18=x19=x20=0.75w;
+x13=x16;
+x12=x17;
+y12=y13=y20=1.5bar1;
+y11=y14=y21=bar2;
+y15=y18=3bar1;
+y16=y17=y19=3.5bar1;
+z16=z15+whatever*dir(ang); 
+z17=z18+whatever*dir(-ang); 
+
+% draw %
+draw z4--z3--z2--z1--z7--z8--z9--z10--z21--z20--z19;
+draw z11--z12--z13--z14--z15--z16--z17--z18;
+
+penlabels(range 0 thru 30);
+
+endchar;

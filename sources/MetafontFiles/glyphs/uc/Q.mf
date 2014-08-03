@@ -1,0 +1,33 @@
+% box dimension definition %
+beginadjchar("Q",5,cap#,0);
+
+% sidebearings %
+numeric l,r;
+normal_adjust_fit(space*0.3u#,space*0.3u#);
+
+% construction %
+x1=x7=leftstemloc;
+x4=x10=w-x1;
+x2=x8;
+x3=x9;
+x11=.5w;
+x12=w;
+y8=y9=h;
+y2=y3=0;
+y1=y4=bar2;
+y7=y10=bar5;
+y11=bar3;
+y12=-bar1;
+z2=z1+whatever*dir(-ang);
+z3=z4+whatever*dir(ang);
+
+% draw %
+draw z4..z2..z3..z1..z7..z9..z8..z10..cycle;
+draw z11..z2..z12;
+
+% composite glyphs %
+charanchortops_[charcode]=(.5w,h+bar2);
+
+penlabels(range 0 thru 30);
+
+endchar;
