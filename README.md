@@ -6,7 +6,7 @@ The documentation is quiet messed up, a proper one will come soon.
 ## Documentation
 [METAFONT for Beginners](http://www.ntg.nl/doc/tobin/mf4begin.pdf)  
 [MetaFontBook](http://osp.constantvzw.org/api/osp.tools.metafontbook/a88e0c2fe23d74d5299191b7ae1866362535ccaa/blob-data/MetaFontBook.pdf)   
-[http://metafont.tutorial.free.fr/](http://metafont.tutorial.free.fr/)
+[http://metafont.tutorial.free.fr/](http://metafont.tutorial.free.fr/)  
 [http://metafont-neo-doc.readthedocs.org/en/latest/index.html](http://metafont-neo-doc.readthedocs.org/en/latest/index.html) (en français!)
 
 ## Quick tutorial
